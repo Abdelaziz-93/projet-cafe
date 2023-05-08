@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "Open Sans", sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #333333;
+    height: 70px;
+}
+
+header h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    float: left;
+}
+
+header nav ul li {
+    display: inline-block;
+    float: right;
+    padding:  25px 15px;
+}
+
+header nav ul li a {
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin: -10px;
+    cursor: pointer;
+}
+
+header nav ul li a:hover {
+    background-color: #444444;
+}
+
+/* start index */
+
+.section__one {
+    background-image: url(image/cafe_.png);
+    opacity: .7;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.section__one__title {
+    padding-top: 200px;
+    padding-left: 350px;
+    padding-right: 350px;
+    font-size: 2.8em;
+    padding-bottom: 50px;
+}
+
+.black {
+    width: 100px;
+    height: 10px;
+    margin: auto;
+    background-color: black;
+}
+
+.section__one__text {
+    margin-top: 20px;
+    padding: 10px 400px;
+    font-size: 1.2em;
+    line-height: 1.7em;
+}
+
+.section__one .section__one__content button {
+    padding: 13px;
+    margin-top: -15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.section__two {
+    width: 700px;
+    height: 100px;
+    margin: auto;
+    padding: 70px 0;
+}
+
+.section__one .section__one__content button:hover {
+    color: #fff;
+    background-color: black;
+    
+}
+
+.section__two__cup, .section__two__clock {
+    display: inline-block;
+    text-align: center;
+    padding:40px;
+    font-size: 1.2em;
+}
+
+.section__two__cup {
+    width: 300px;
+    height: 300px;
+}
+
+ i {
+    width: 60px;
+    height: 60px;
+}
+
+
+
+.section__tree {
+    background-image: url(image/aucafe.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section__four {
+    height: 400px;
+    text-align: center;
+} 
+
+.section__four p {
+    padding: 50px 300px;
+    font-size: 1.2em;
+}
+
+.section__four__title {
+    font-size: xx-large;
+    padding-top: 100px;
+}
+
+.section__four button {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.section__four button:hover {
+    background-color: #dcd7d7;
+    color: black;
+}
+
+/* end index */
+
+/* start trouver */
+
+.map {
+    width: 800px;
+    margin: 150px auto;
+}
+
+.map .map_link, .map .map_adresse {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.map .map_link {
+    margin-right: 50px;
+    border: 1px solid #cbc8c8;
+    border-radius: 4px;
+}
+
+.map .map_adresse h3 {
+    border-bottom: 0.6px solid #000;
+    font-size: 1.6em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.map .map_adresse p {
+    font-weight: bold;
+}
+
+span {
+    color: #fff;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.ligne_rose {
+    background-color: #BE418C;
+}
+
+.ligne_brown {
+    background-color: #8C5E24;
+}
+/* end trouver */
+
+/* start contact */
+
+.contact {
+    padding: 100px 0;
+}
+
+.form_content {
+    width: 500px;
+    margin: auto;
+}
+
+.form_content form input {
+    padding:7px 5px;
+    width: 100%;
+    display: block;
+}
+
+.form_content form label {
+    display: block;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.form_content form textarea {
+    display: block;
+    padding: 7px 5px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.form_content h1 {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+
+}
+
+.form_content form .btn {
+    color: #fff;
+    background-color: #000;
+    padding: 13px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 40px;
+    cursor: pointer;
+    border: none;
+} 
+
+.form_content form .btn:hover {
+    color: #000;
+    background-color: #cdc8c8;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    height: 60px;
+    padding-top: 20px;
+}
